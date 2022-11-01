@@ -1,0 +1,11 @@
+a
+const onSelect = (data) => {
+        console.log(data.bracode)
+        setBracode(data.bracode)
+    }
+
+navigation.navigate('Order', {onSelect: onSelect})}
+
+b
+
+route.params.onSelect({bracode: data})
